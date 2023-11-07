@@ -1,0 +1,86 @@
+#head {
+  background-color: #303030;
+  width: 100%;
+  height: 475px;
+  padding: none;
+  margin: 0;
+  border: none;
+}
+#titulo {
+  color: white;
+  text-align: left;
+  margin-left: 62px;
+  padding-top: 206px;
+}
+
+#submateria {
+  background-color: #eaece5;
+  display: grid;
+  grid-auto-flow: column;
+  columns: auto;
+  padding: 30px;
+  gap: 30%;
+  justify-content: center;
+}
+
+#materia {
+  display: flex;
+  width: 1680px;
+  justify-content: space-between;
+  height: auto;
+}
+
+.texto {
+  text-align: left;
+  margin-left: 77px;
+  margin-top: 80px;
+  justify-content: center;
+}
+
+.imagem {
+  width: 300px;
+  margin: 50px 0px 50px 0px;
+  text-align: right;
+  justify-content: right;
+}
+
+#site {
+  padding: none;
+  margin: 0;
+}
+#back {
+  background-color: #303030;
+  width: 100%;
+  height: 638px;
+  flex-shrink: 0;
+  text-align: center;
+}
+#rodap {
+  text-align: center;
+  color: #fff;
+}
+#enviar {
+  width: 286px;
+  height: 74px;
+  background-color: #c07212;
+  color: #fff;
+  color: #fff;
+
+  font-family: Raleway;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px;
+}
+input {
+  width: 508px;
+  height: 50px;
+  border-radius: 10px;
+  border: 0;
+  margin: 25px;
+  background: #fff;
+  padding-left: 10px;
+}
+#pesquisa {
+  margin: 25px;
+}
